@@ -2,13 +2,18 @@
   "name": "anilbackend",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "nodemon index.js",
+    "dev" : "nodemon index.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "nodemon": "^3.1.2"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongodb": "^6.7.0",
+    "mongoose": "^8.4.1"
   }
 }
